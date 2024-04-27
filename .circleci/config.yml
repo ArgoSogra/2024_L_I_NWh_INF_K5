@@ -18,7 +18,7 @@ jobs:
       - checkout 
 
       - run: make deps 
-
+      - run: eslint
       - run: make test       
 
 workflows: 
