@@ -8,5 +8,5 @@ test:
 	PYTHONPATH=. py.test --verbose -s
 lint:
 	flake8 hello_world test
-dockerbuild:
+docker_build:
 	docker build -t hello-world-printer .
